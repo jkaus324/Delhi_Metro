@@ -1,0 +1,277 @@
+[
+    {
+        "value" : "Brig Hoshiar Singh",
+        "connected_to" : [["Bahadurgarh city",3]]
+    },
+
+    {
+        "value": "Bahadurgarh city",
+        "connected_to":[["Brig Hoshiar Singh",3],["Pandit Shree Ram Sharma",2]]
+    },
+
+    {
+        "value": "Pandit Shree Ram Sharma",
+        "connected_to":[["Bahadurgarh city",2],["Tikri Border",2]]
+    },
+
+    {
+        "value":"Tikri Border",
+        "connected_to": [["Pandit Shree Ram Sharma",2],["Tikri Kalan",2]]
+    },
+
+    {
+        "value": "Tikri Kalan",
+        "connected_to": [["Tikri Border",2],["Ghavra Metro Station",3]]
+    },
+
+    {
+        "value":"Ghavra Metro Station",
+        "connected_to":[["Tikri Kalan",3],["Mudka Industrial Area",3]]
+    },
+
+    {
+        "value":"Mudka Industrial Area",
+        "connected_to":[["Ghavra Metro Station",3],["Mudka",2]]
+    },
+
+    {
+        "value":"Mudka",
+        "connected_to":[["Mudka Industrial Area",2],["Rajdhani Park",2]]
+    },
+
+    {
+        "value":"Rajdhani Park",
+        "connected_to":[["Mudka",2],["Nangloi Railway Station",2]]
+    },
+
+    {
+        "value":"Nangloi Railway Station",
+        "connected_to":[["Rajdhani Park",2],["Nangloi",2]]
+    },
+
+    {
+        "value":"Nangloi",
+        "connected_to":[["Nangloi Railway Station",2],["Maharaja Surajmal Stadium",2]]
+    },
+
+    {
+        "value":"Maharaja Surajmal Stadium",
+        "connected_to":[["Udyog Nagar",2],["Nangloi",2]]
+    },
+
+    {
+        "value":"Udyog Nagar",
+        "connected_to":[["Poorogarhi",2],["Maharaja Surajmal Stadium",2]]
+    },
+
+    {
+        "value":"Poorogarhi",
+        "connected_to":[["Parchim vihar west",2],["Udyog Nagar",2]]
+    },
+
+    {
+        "value":"Parchim vihar west",
+        "connected_to":[["Parchim vihar east",2],["Poorogarhi",2]]
+    },
+
+    {
+        "value":"Parchim vihar east",
+        "connected_to":[["Parchim vihar west",2],["Madpur",2]]
+    },
+
+    {
+        "value":"Madpur",
+        "connected_to":[["Parchim vihar east",2],["Shivaji Park",2]]
+    },
+
+    {
+        "value":"Shivaji Park",
+        "connected_to":[["Punjabi Bagh West",2],["Madpur",2]]
+    },
+
+    {
+        "value":"Punjabi Bagh West",
+        "connected_to":[["Shivaji Park",2],["Shakurpur",3],["Esi-Basaidarpur",3],["Punjabi Bagh",2]]
+    },
+
+    {
+        "value":"Punjabi Bagh",
+        "connected_to":[["Punjabi Bagh West",2],["Ashok Park Main",2]]
+    },
+
+    {
+        "value":"Ashok Park Main",
+        "connected_to":[["Satguru Ram Singh Marg",2],["Inderlok",3],["Punjabi Bagh",2]]
+    },
+
+    {
+        "value":"Inderlok",
+        "connected_to":[["Ashok Park Main",3],["Shastri Nagar",2],["Kanhaiya Nagar",2]]
+    },
+
+    {
+        "value":"Kahaniya Nagar",
+        "connected_to":[["Inderlok",2],["Keshav Puram",2]]
+    },
+
+    {
+        "value":"Keshav Puram",
+        "connected_to":[["Kahaniya Nagar",2],["Netaji Subhash Place",2]]
+    },
+
+    {
+        "value":"Netaji Subhash Place",
+        "connected_to":[["Shakurpur",3],["Keshav Puram",2],["Kohat Enclave",2],["Shalimar Bagh",3]]
+    },
+
+    {
+        "value":"Kohat Enclave",
+        "connected_to":[["Netaji Subhash Place",2],["Pitampura",2]]
+    },
+
+    {
+        "value":"Pitampura",
+        "connected_to":[["Kohat Enclave",2],["Rohini East",2]]
+    },
+
+    {
+        "value":"Rohini East",
+        "connected_to":[["Pitampura",2],["Rohini West",2]]
+    },
+
+    {
+        "value":"Rohini West",
+        "connected_to":[["Rohini East",2],["Rithala",2]]
+    },
+
+    {
+        "value":"Rithali",
+        "connected_to":[["Rohini West",2]]
+    },
+
+    {
+        "value":"Shakurpur",
+        "connected_to":[["Netaji Subhash Place",3],["Punjabi Bagh West",3]]
+    },
+
+    {
+        "value":"Satguru Ram Singh Marg",
+        "connected_to":[["Ashok Park Main"],["Kriti Nagar"]]
+    },
+
+    {
+        "value":"Kriti Nagar",
+        "connected_to":[["Satguru Ram Singh Marg"],["Moti Nagar"],["Shadpur"]]
+    },
+
+    {
+        "value":"Moti Nagar",
+        "connected_to":[["Ramesh Nagar",2],["Kriti Nagar",2]]
+    },
+
+    {
+        "value":"Ramesh Nagar",
+        "connected_to":[["Moti Nagar",2],["Rajori Garden",2]]
+    },
+
+    {
+        "value":"Rajori Garden",
+        "connected_to":[["Ramesh Nagar",2],["Esi-Basaidarpur",2]]
+    },
+
+    {
+        "value":"Esi-Basaidarpur",
+        "connected_to":[["Rajori Garden",2],["Punjabi Bagh West",3]]
+    },
+
+    {
+        "value":"Shadpur",
+        "connected_to":[["Kriti Nagar",2],["Patel Nagar",2]]
+    },
+
+    {
+        "value":"Patel Nagar",
+        "connected_to":[["Shadpur",2],["Rajendra Place",2]]
+    },
+
+    {
+        "value":"Rajendra Place",
+        "connected_to":[["Patel Nagar",2],["Karol Bagh",2]]
+    },
+
+    {
+        "value":"Karol Bagh",
+        "connected_to":[["Rajendra Place",2],["Jhadewalon",2]]
+    },
+
+    {
+        "value":"Jhadewalon",
+        "connected_to":[["Karol Bagh",2],["Ramakrishna Ashram Marg",2]]
+    },
+
+    {
+        "value":"Ramakrishna Ashram Marg",
+        "connected_to":[["Jhadewalon",2],["Rajiv Chowk",2]]
+    },
+
+    {
+        "value":"Rajiv Chowk",
+        "connected_to":[["Ramakrishna Ashram Marg",2],["Barakhamba Road",2]]
+    },
+
+    {
+        "value":"Barakhamba Road",
+        "connected_to":[["Mandi House",2],["Rajiv Chowk",2]]
+    },
+
+    {
+        "value":"Mandi House",
+        "connected_to":[["ITO",2],["Barakhamba Road",2],["Supreme Court",2],["Janpath",3]]
+    },
+
+    {
+        "value":"ITO",
+        "connected_to":[["Mandi House",2],["Delhi Gate",2]]
+    },
+
+    {
+        "value":"Delhi Gate",
+        "connected_to":[["ITO",2],["Jama Majsid",2]]
+    },
+
+    {
+        "value":"Jama Majsid",
+        "connected_to":[["Delhi Gate",2],["Lal Quila",2]]
+    },
+
+    {
+        "value":"Lal Quila",
+        "connected_to":[["Jama Majsid",2],["Kashmere Gate",2]]
+    },
+
+    {
+        "value":"Kashmere Gate",
+        "connected_to":[["Lal Quila",2],["Chadni Chowk",2],["Civil Lines",2],["Tiz Hazari",2]]
+    },
+
+    {
+        "value":"Tiz Hazari",
+        "connected_to":[["Kashmere Gate",2],["Pulbangosh",2]]
+    },
+
+    {
+        "value":"Pulbangosh",
+        "connected_to":[["Tiz Hazari",2],["Pratap Nagar",2]]
+    },
+
+    {
+        "value":"Pratap Nagar",
+        "connected_to":[["Pulbangosh",2],["Shastri Nagar",2]]
+    },
+
+    {
+        "value":"Shashtri Nagar",
+        "connected_to":[["Pratrap Nagar",2],["Inderlok",2]]
+    }
+
+]
